@@ -1,2 +1,0 @@
-# LMO-Technical-solutions
-
