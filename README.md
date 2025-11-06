@@ -18,12 +18,17 @@ Website
 - Course Details Page: Individual course breakdown including pricing and benefits
 - Contact Page: Embedded map, contact details, and feedback form
 - Footer: Social media icons and copyright notice
+  
 Mobile App
 - Home Screen: Brand message and course navigation
 - Course Details Screen: Full course descriptions with images and pricing
 - Login Screen: Simulated login for demonstration purposes
 - Navigation: Stack-based routing with reusable components
 - Footer Icons: Social media and contact options for mobile users
+
+  Screenshot of the App
+  <img width="1221" height="783" alt="image" src="https://github.com/user-attachments/assets/fa8f7cc2-25fc-4ef1-93f6-79fdf66b4a6a" />
+
 
 
 
