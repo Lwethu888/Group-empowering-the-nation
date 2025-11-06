@@ -43,7 +43,22 @@ Mobile App
  
   Caption: Six months courses
 
-  ![Uploading image.png…]()
+  <img width="1237" height="796" alt="image" src="https://github.com/user-attachments/assets/e6bc497b-cd82-42c0-a50f-64121e84e4f2" />
+
+  <img width="1223" height="797" alt="image" src="https://github.com/user-attachments/assets/19211c9b-d9d6-47cf-ad55-b960005d4393" />
+
+  <img width="1240" height="792" alt="image" src="https://github.com/user-attachments/assets/7973bdcf-1de7-4b67-a3e7-db91f8a6a3a1" />
+  Caption: Short courses
+
+  <img width="1222" height="807" alt="image" src="https://github.com/user-attachments/assets/2543842e-f49a-4133-96b0-fc4869fd0072" />
+  <img width="1223" height="791" alt="image" src="https://github.com/user-attachments/assets/46c7e942-192c-4fa1-96d7-6f2fc7d30e89" />
+  Caption: Contact us
+
+  
+
+
+
+
 
   
 
