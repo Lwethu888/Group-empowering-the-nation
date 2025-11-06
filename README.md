@@ -84,7 +84,8 @@ Mobile App
 
 ![WhatsApp Image 2025-11-06 at 22 11 06_7d507c1b](https://github.com/user-attachments/assets/5cac87a1-7732-4a27-884e-6d4619637f21)
 
-![WhatsApp Image 2025-11-06 at 22 11 07_dd420163](https://github.com/user-attachments/assets/07daf043-3372-4585-b65c-265f2a875104)
+![WhatsApp Image 2025-11-06 at 22 11 07_dd420163](https://github.com/user-attachments/assets/02d31dcc-b563-4e82-bb55-b611f5b059bb)
+875104)
 
 
 Reference:
