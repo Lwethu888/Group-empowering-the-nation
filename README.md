@@ -2,8 +2,8 @@
 
 - Project Title: Empowering the Nation
 - Student Name: Lwethu Tola ST10478923
-- Student Name: Mamello Makhamele ST10468112
-- Student Nmae: Oluhle Kheswa ST10490598 
+- Student Name: Mamello Makhalemele ST10468112
+- Student Name: Oluhle Kheswa ST10490598 
   
 - Institution: Varsity College Independent Institute of Education
 - Course: Higher Certificate in Mobile Application and Web Development
