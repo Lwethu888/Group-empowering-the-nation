@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Fees - Empowering the Nation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-section">
+                <!-- Simplified image path for better compatibility -->
+                <img src="public/logo.png" alt="Logo" class="logo-img">
+                <div>
+                    <h1 class="logo-title">Empowering the Nation</h1>
+                    <p class="logo-subtitle">Training & Development</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="6-month-courses.html" class="nav-link">6-Month Courses</a>
+                <a href="6-week-courses.html" class="nav-link">6-Week Courses</a>
+                <a href="calculate-fees.html" class="nav-link active">Calculate Fees</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="page-content">
+        <div class="container calculator-container">
+            <div class="calculator-header">
+                <div class="calculator-icon">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                        <line x1="8" y1="6" x2="16" y2="6"></line>
+                        <line x1="16" y1="14" x2="16" y2="14"></line>
+                        <line x1="8" y1="14" x2="8" y2="14"></line>
+                        <line x1="12" y1="14" x2="12" y2="14"></line>
+                        <line x1="8" y1="18" x2="8" y2="18"></line>
+                        <line x1="12" y1="18" x2="12" y2="18"></line>
+                        <line x1="16" y1="18" x2="16" y2="18"></line>
+                    </svg>
+                </div>
+                <h1 class="page-title">Course Fee Calculator</h1>
+                <p class="page-subtitle">
+                    Select the courses you're interested in and see your total fees with automatic discounts applied.
+                </p>
+            </div>
+
+            <div class="calculator-grid">
+                <!-- Course Selection -->
+                <div class="calculator-card">
+                    <h2 class="calculator-card-title">Select Courses</h2>
+                    <p class="calculator-card-subtitle">Choose the courses you want to enroll in</p>
+
+                    <!-- 6-Month Courses -->
+                    <div class="course-section">
+                        <h3 class="course-section-title">6-Month Courses (R1,500 each)</h3>
+                        <div class="checkbox-list">
+                            <label class="checkbox-item">
+                                <div class="checkbox-left">
+                                    <input type="checkbox" class="checkbox-input" data-price="1500" id="first-aid">
+                                    <span>First Aid</span>
+                                </div>
+                                <span class="checkbox-price">R1500</span>
+                            </label>
+                            <label class="checkbox-item">
+                                <div class="checkbox-left">
+                                    <input type="checkbox" class="checkbox-input" data-price="1500" id="sewing">
+                                    <span>Sewing</span>
+                                </div>
+                                <span class="checkbox-price">R1500</span>
+                            </label>
+                            <label class="checkbox-item">
+                                <div class="checkbox-left">
+                                    <input type="checkbox" class="checkbox-input" data-price="1500" id="landscaping">
+                                    <span>Landscaping</span>
+                                </div>
+                                <span class="checkbox-price">R1500</span>
+                            </label>
+                            <label class="checkbox-item">
+                                <div class="checkbox-left">
+                                    <input type="checkbox" class="checkbox-input" data-price="1500" id="life-skills">
+                                    <span>Life Skills</span>
+                                </div>
+                                <span class="checkbox-price">R1500</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- 6-Week Courses -->
+                    <div class="course-section">
+                        <h3 class="course-section-title">6-Week Courses (R750 each)</h3>
+                        <div class="checkbox-list">
+                            <label class="checkbox-item">
+                                <div class="checkbox-left">
+                                    <input type="checkbox" class="checkbox-input" data-price="750" id="childminding">
+                                    <span>Childminding</span>
+                                </div>
+                                <span class="checkbox-price">R750</span>
+                            </label>
+                            <label class="checkbox-item">
+                                <div class="checkbox-left">
+                                    <input type="checkbox" class="checkbox-input" data-price="750" id="cooking">
+                                    <span>Cooking</span>
+                                </div>
+                                <span class="checkbox-price">R750</span>
+                            </label>
+                            <label class="checkbox-item">
+                                <div class="checkbox-left">
+                                    <input type="checkbox" class="checkbox-input" data-price="750" id="garden-maintenance">
+                                    <span>Garden Maintenance</span>
+                                </div>
+                                <span class="checkbox-price">R750</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fee Summary -->
+                <div class="calculator-card">
+                    <h2 class="calculator-card-title">Fee Summary</h2>
+
+                    <div id="summary-content" class="summary-empty">
+                        <p>Select courses to see your fee calculation</p>
+                    </div>
+
+                    <div id="summary-result" class="summary-result" style="display: none;">
+                        <div class="summary-total">
+                            <p class="summary-count">Selected Courses: <span id="course-count">0</span></p>
+                            <p class="summary-price">R<span id="total-price">0</span></p>
+                        </div>
+
+                        <div class="summary-discounts">
+                            <p class="summary-discounts-title">Discounts Applied:</p>
+                            <ul class="summary-discounts-list">
+                                <li>• 5% off for 2-3 courses</li>
+                                <li>• 10% off for 4-5 courses</li>
+                                <li>• 15% off for 6+ courses</li>
+                            </ul>
+                        </div>
+
+                        <!-- Added Generate Invoice button -->
+                        <button class="btn btn-primary btn-full" onclick="generateInvoice()" style="margin-top: 20px;">Generate Invoice</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <!-- Simplified image path for better compatibility -->
+                <img src="public/logo.png" alt="Logo" class="footer-logo">
+                <div>
+                    <p class="footer-copyright">© 2025 Empowering the Nation. All rights reserved.</p>
+                    <p class="footer-tagline">Empowering domestic workers and gardeners through quality training and education.</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-slogan">Building skills. Creating opportunities.</p>
+                <!-- Added social media links -->
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/15UKVaU5om/?mibextid=wwXIfr" target="_blank" class="social-link" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/empoweringthenation2025?igsh=cTNvODRwM29ucWxr&utm_source=qr" target="_blank" class="social-link" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.073-1.689-.073-4.849 0-3.204.013-3.583.072-4.948.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.849 0 3.204.013 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="https://x.com/empoweringthen?s=11" target="_blank" class="social-link" aria-label="Twitter/X">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="calculator.js"></script>
+    <!-- Added invoice modal -->
+    <div id="invoice-modal" class="invoice-modal" style="display: none;">
+        <div class="invoice-modal-content">
+            <span class="invoice-close" onclick="closeInvoice()">&times;</span>
+            <div id="invoice-content" class="invoice-content"></div>
+            <div class="invoice-actions">
+                <button class="btn btn-primary" onclick="printInvoice()">Print Invoice</button>
+                <button class="btn btn-secondary" onclick="closeInvoice()">Close</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

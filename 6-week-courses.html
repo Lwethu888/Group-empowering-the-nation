@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6-Week Courses - Empowering the Nation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-section">
+                <img src="public/logo.png" alt="Logo" class="logo-img">
+                <div>
+                    <h1 class="logo-title">Empowering the Nation</h1>
+                    <p class="logo-subtitle">Training & Development</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="6-month-courses.html" class="nav-link">6-Month Courses</a>
+                <a href="6-week-courses.html" class="nav-link active">6-Week Courses</a>
+                <a href="calculate-fees.html" class="nav-link">Calculate Fees</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="page-content">
+        <div class="container">
+            <h1 class="page-title">6-Week Short Courses</h1>
+            <p class="page-subtitle">
+                Quick courses to learn new skills fast. Perfect if you want to add to your abilities or try something new.
+                Each course is R750 and runs for 6 weeks.
+            </p>
+
+            <!-- Course Cards -->
+            <div class="courses-grid-3col">
+                <!-- Childminding -->
+                <div class="course-card-small">
+                    <div class="course-image-small">
+                        <img src="public/childminding.jpg" alt="Childminding">
+                    </div>
+                    <div class="course-content-small">
+                        <h3 class="course-title-small">Childminding</h3>
+                        <div class="course-meta-small">
+                            <div class="course-duration-small">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <span>6 weeks</span>
+                            </div>
+                            <p class="course-price-small">R750</p>
+                        </div>
+                        <p class="course-description-small">
+                            Professional childcare training covering child development, safety, and effective caregiving techniques.
+                        </p>
+                        <!-- Updated Childminding video link to valid URL -->
+                        <p class="video-link-container">
+                            <a href="https://www.youtube.com/watch?v=bxdxax2Oe0s" target="_blank" class="video-link">Watch Childminding Training Video</a>
+                        </p>
+                        <!-- Added expandable details section -->
+                        <div class="course-details-small expandable-details-small" style="display: none;">
+                            <h4 class="details-title-small">What you'll learn:</h4>
+                            <ul class="details-list-small">
+                                <li>• Child safety protocols</li>
+                                <li>• Fun activities and games</li>
+                                <li>• Healthy meals preparation</li>
+                                <li>• Development stages understanding</li>
+                            </ul>
+                            <h4 class="details-title-small">Course Benefits:</h4>
+                            <ul class="details-list-small">
+                                <li>• Childcare certification</li>
+                                <li>• First aid basics included</li>
+                                <li>• Job placement support</li>
+                            </ul>
+                        </div>
+                        <!-- Added onclick handler to toggle details -->
+                        <button class="btn btn-primary btn-full btn-small" onclick="toggleDetailsSmall(this)">View Course Details</button>
+                    </div>
+                </div>
+
+                <!-- Cooking -->
+                <div class="course-card-small">
+                    <div class="course-image-small">
+                        <img src="public/cooking.jpg" alt="Cooking">
+                    </div>
+                    <div class="course-content-small">
+                        <h3 class="course-title-small">Cooking</h3>
+                        <div class="course-meta-small">
+                            <div class="course-duration-small">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <span>6 weeks</span>
+                            </div>
+                            <p class="course-price-small">R750</p>
+                        </div>
+                        <p class="course-description-small">
+                            Culinary skills training covering meal planning, food safety, and cooking techniques for various cuisines.
+                        </p>
+                        <!-- Updated Cooking video link to valid URL -->
+                        <p class="video-link-container">
+                            <a href="https://www.youtube.com/watch?v=ZJy1ajvMU1k" target="_blank" class="video-link">Watch Cooking Training Video</a>
+                        </p>
+                        <!-- Added expandable details section -->
+                        <div class="course-details-small expandable-details-small" style="display: none;">
+                            <h4 class="details-title-small">What you'll learn:</h4>
+                            <ul class="details-list-small">
+                                <li>• Basic cooking techniques</li>
+                                <li>• Knife skills and safety</li>
+                                <li>• Meal planning strategies</li>
+                                <li>• Food hygiene standards</li>
+                            </ul>
+                            <h4 class="details-title-small">Course Benefits:</h4>
+                            <ul class="details-list-small">
+                                <li>• Food handler's certificate</li>
+                                <li>• Recipe collection included</li>
+                                <li>• Restaurant placement opportunities</li>
+                            </ul>
+                        </div>
+                        <!-- Added onclick handler to toggle details -->
+                        <button class="btn btn-primary btn-full btn-small" onclick="toggleDetailsSmall(this)">View Course Details</button>
+                    </div>
+                </div>
+
+                <!-- Garden Maintenance -->
+                <div class="course-card-small">
+                    <div class="course-image-small">
+                        <img src="public/garden.jpg" alt="Garden Maintenance">
+                    </div>
+                    <div class="course-content-small">
+                        <h3 class="course-title-small">Garden Maintenance</h3>
+                        <div class="course-meta-small">
+                            <div class="course-duration-small">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <span>6 weeks</span>
+                            </div>
+                            <p class="course-price-small">R750</p>
+                        </div>
+                        <p class="course-description-small">
+                            Practical garden maintenance course covering plant care, pest control, and seasonal garden management.
+                        </p>
+                        <!-- Updated Garden Maintenance video link to valid URL -->
+                        <p class="video-link-container">
+                            <a href="https://www.youtube.com/watch?v=5S21uh_ztE4" target="_blank" class="video-link">Watch Garden Maintenance Training Video</a>
+                        </p>
+                        <!-- Added expandable details section -->
+                        <div class="course-details-small expandable-details-small" style="display: none;">
+                            <h4 class="details-title-small">What you'll learn:</h4>
+                            <ul class="details-list-small">
+                                <li>• Pruning plants and trees</li>
+                                <li>• Lawn care techniques</li>
+                                <li>• Pest control methods</li>
+                                <li>• Seasonal maintenance</li>
+                            </ul>
+                            <h4 class="details-title-small">Course Benefits:</h4>
+                            <ul class="details-list-small">
+                                <li>• Garden maintenance certificate</li>
+                                <li>• Tool safety training</li>
+                                <li>• Landscaping company connections</li>
+                            </ul>
+                        </div>
+                        <!-- Added onclick handler to toggle details -->
+                        <button class="btn btn-primary btn-full btn-small" onclick="toggleDetailsSmall(this)">View Course Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <img src="public/logo.png" alt="Logo" class="footer-logo">
+                <div>
+                    <p class="footer-copyright">© 2025 Empowering the Nation. All rights reserved.</p>
+                    <p class="footer-tagline">Empowering domestic workers and gardeners through quality training and education.</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-slogan">Building skills. Creating opportunities.</p>
+                <!-- Added social media links -->
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/15UKVaU5om/?mibextid=wwXIfr" target="_blank" class="social-link" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/empoweringthenation2025?igsh=cTNvODRwM29ucWxr&utm_source=qr" target="_blank" class="social-link" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.281.057-1.689.069-4.849-.069-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98.2 4.354 2.617 6.78 6.979 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.2-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="https://x.com/empoweringthen?s=11" target="_blank" class="social-link" aria-label="Twitter/X">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Added JavaScript for toggle functionality -->
+    <script>
+        function toggleDetailsSmall(button) {
+            // Find the expandable details section in the same card
+            const card = button.closest('.course-card-small');
+            const details = card.querySelector('.expandable-details-small');
+            
+            // Toggle visibility
+            if (details.style.display === 'none') {
+                details.style.display = 'block';
+                button.textContent = 'Show Less';
+            } else {
+                details.style.display = 'none';
+                button.textContent = 'View Course Details';
+            }
+        }
+    </script>
+</body>
+</html>
