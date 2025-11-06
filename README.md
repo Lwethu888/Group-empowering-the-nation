@@ -26,7 +26,9 @@ Mobile App
 - Navigation: Stack-based routing with reusable components
 - Footer Icons: Social media and contact options for mobile users
 
+
   Screenshot of the App
+
   
   <img width="1221" height="783" alt="image" src="https://github.com/user-attachments/assets/fa8f7cc2-25fc-4ef1-93f6-79fdf66b4a6a" />
   Caption: Homepage
@@ -60,6 +62,29 @@ Mobile App
 
  <img width="1212" height="791" alt="image" src="https://github.com/user-attachments/assets/299925a6-ec1d-4aa8-9751-1111a5ec0411" />
  Caption: Calculate fee and invoice
+
+
+ Screenshots of the website:
+
+ ![WhatsApp Image 2025-11-06 at 22 11 06_3260c38d](https://github.com/user-attachments/assets/b12cded3-4a55-45eb-8055-909bb6c9f081)
+
+ ![WhatsApp Image 2025-11-06 at 22 11 06_04a95244](https://github.com/user-attachments/assets/f7a112f7-553c-4040-bfdc-cfd2833f18da)
+
+ ![WhatsApp Image 2025-11-06 at 22 11 06_2dde7905](https://github.com/user-attachments/assets/d5ce4e17-dc5c-4674-95a7-3e6acb8d0f28)
+
+ ![WhatsApp Image 2025-11-06 at 22 11 06_aab1b75d](https://github.com/user-attachments/assets/49208147-5f24-4c2f-a544-254be9f48cd1)
+
+ ![WhatsApp Image 2025-11-06 at 22 11 06_8bde7b96](https://github.com/user-attachments/assets/93ba20d0-e99b-4add-adab-9c40d813fb5e)
+
+ ![WhatsApp Image 2025-11-06 at 22 11 06_507b5a5f](https://github.com/user-attachments/assets/3b944a02-c046-4cff-9b18-717245a9c58e)
+
+![WhatsApp Image 2025-11-06 at 22 11 06_a451a8e2](https://github.com/user-attachments/assets/a131814d-e44f-490a-8fca-4c1d17be2f8d)
+
+![WhatsApp Image 2025-11-06 at 22 11 06_bce3e365](https://github.com/user-attachments/assets/cbb8bfb6-d019-4a57-bf99-fac10edf6e91)
+
+![WhatsApp Image 2025-11-06 at 22 11 06_7d507c1b](https://github.com/user-attachments/assets/5cac87a1-7732-4a27-884e-6d4619637f21)
+
+![WhatsApp Image 2025-11-06 at 22 11 07_dd420163](https://github.com/user-attachments/assets/07daf043-3372-4585-b65c-265f2a875104)
 
 
 Reference:
