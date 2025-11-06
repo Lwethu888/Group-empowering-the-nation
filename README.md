@@ -54,6 +54,30 @@ Mobile App
   <img width="1223" height="791" alt="image" src="https://github.com/user-attachments/assets/46c7e942-192c-4fa1-96d7-6f2fc7d30e89" />
   Caption: Contact us
 
+ <img width="1212" height="787" alt="image" src="https://github.com/user-attachments/assets/b919387a-e27d-4868-9c8d-19e6330471a2" />
+ 
+ <img width="1220" height="790" alt="image" src="https://github.com/user-attachments/assets/96bef74f-9c8a-4980-86bb-99e189610321" />
+
+ <img width="1212" height="791" alt="image" src="https://github.com/user-attachments/assets/299925a6-ec1d-4aa8-9751-1111a5ec0411" />
+ Caption: Calculate fee and invoice
+
+
+Reference:
+
+TED. (2010). Ken Robinson says schools kill creativity. YouTube. Available at: https://www.youtube.com/watch?v=0-S5a0eXPoc (Accessed: 1 November 2025).
+TEDx Talks. (2015). Why incompetent people think they're amazing – David Dunning. YouTube. Available at: https://www.youtube.com/watch?v=FazgJVnrVuI (Accessed: 1 November 2025).
+TEDx Talks. (2020). The psychology of self-motivation – Scott Geller. YouTube. Available at: https://www.youtube.com/watch?v=vpRkAoCqX3o (Accessed: 1 November 2025).
+GitHub. (2021). How to create a team in GitHub. YouTube. Available at: https://www.youtube.com/watch?v=_WqpsLVVUXQ (Accessed: 1 November 2025).
+
+
+
+
+
+
+
+
+  
+
   
 
 
