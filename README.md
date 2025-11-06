@@ -31,6 +31,13 @@ Mobile App
   <img width="1221" height="783" alt="image" src="https://github.com/user-attachments/assets/fa8f7cc2-25fc-4ef1-93f6-79fdf66b4a6a" />
   Caption: Homepage
 
+  <img width="1213" height="787" alt="image" src="https://github.com/user-attachments/assets/fcbf3c16-4ba2-4858-b57c-932b00372103" />
+  <img width="1217" height="796" alt="image" src="https://github.com/user-attachments/assets/f7aca0f1-a2a7-40e7-84d1-26911df850ea" />
+  <img width="1218" height="787" alt="image" src="https://github.com/user-attachments/assets/3621d828-1db8-4202-b235-5444f9a90a6c" />
+
+
+
+
 
 
 
