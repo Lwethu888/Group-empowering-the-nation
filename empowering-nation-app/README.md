@@ -1,12 +1,4 @@
-<<<<<<< HEAD:empowering-nation-app/README.md
-# Welcome to your Expo app 👋
-=======
->>>>>>> af36646 (Remove existing app to repush clean version):README.md
-
-# Empowering the Nation App
-
-This is a React Native mobile application built with [Expo](https://expo.dev), designed to empower and educate users through various features and calculators. The app includes six-week and six-month programs, an exploration section, and various interactive components.
-"""markdown
+﻿
 # Empowering the Nation App
 
 This is a React Native mobile application built with [Expo](https://expo.dev), designed to empower and educate users through various features and calculators. The app includes six-week and six-month programs, an exploration section, and various interactive components.
@@ -24,33 +16,11 @@ This is a React Native mobile application built with [Expo](https://expo.dev), d
 
 ```
 app/
-├── (tabs)/          # Main tab navigation
-├── six-month/       # Six-month program content
-├── six-week/        # Six-week program content
-├── calculator.js    # Financial calculator
-└── contact.js       # Contact information
-# Empowering the Nation App
-
-This is a React Native mobile application built with [Expo](https://expo.dev), designed to empower and educate users through various features and calculators. The app includes six-week and six-month programs, an exploration section, and various interactive components.
-
-## Features
-
-- **Six-Week Program**: Progressive learning modules delivered over six weeks
-- **Six-Month Program**: Extended educational content and resources
-- **Calculator**: Interactive financial calculator tool
-- **Explore Section**: Browse through various educational resources
-- **Contact**: Easy access to support and communication
-- **Dark/Light Theme**: Supports both dark and light mode for better user experience
-
-## Project Structure
-
-```
-app/
-├── (tabs)/          # Main tab navigation
-├── six-month/       # Six-month program content
-├── six-week/        # Six-week program content
-├── calculator.js    # Financial calculator
-└── contact.js       # Contact information
+â”œâ”€â”€ (tabs)/          # Main tab navigation
+â”œâ”€â”€ six-month/       # Six-month program content
+â”œâ”€â”€ six-week/        # Six-week program content
+â”œâ”€â”€ calculator.js    # Financial calculator
+â””â”€â”€ contact.js       # Contact information
 ```
 
 ## Getting Started
@@ -142,7 +112,7 @@ This project uses:
   npm run web
   ```
 
-## Project Structure (detailed)
+## Project Structure
 
 The project follows a feature-based structure:
 
@@ -166,11 +136,7 @@ The project follows a feature-based structure:
 - [React Native Documentation](https://reactnative.dev/)
 - [React Navigation Documentation](https://reactnavigation.org/)
 
-## Join the community
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
