@@ -27,8 +27,9 @@ Mobile App
 - Footer Icons: Social media and contact options for mobile users
 
   Screenshot of the App
+  
   <img width="1221" height="783" alt="image" src="https://github.com/user-attachments/assets/fa8f7cc2-25fc-4ef1-93f6-79fdf66b4a6a" />
-
+  Caption: Homepage
 
 
 
